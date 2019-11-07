@@ -1,0 +1,12 @@
+{
+  "name": "lighthouse-plugin-feature-policy",
+  "private": true,
+  "main": "./plugin.js",
+  "peerDependencies": {
+    "lighthouse": "^5.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lighthouse": "^5.6.0"
+  }
+}
