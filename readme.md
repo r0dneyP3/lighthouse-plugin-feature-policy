@@ -8,5 +8,5 @@
 1. Install `lighthouse` v5 or later.
 2. Git clone the code locally and run `npm i` to install dev dependencies
 2. Run `npm link` in the repo, making it available in global node_modules
-3. Run `lighthouse https://example.com --plugins=lighthouse-plugin-example --view`
+3. Run `lighthouse https://example.com --plugins=lighthouse-plugin-feature-policy --view`
 
