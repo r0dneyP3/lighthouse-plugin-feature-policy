@@ -10,6 +10,8 @@ module.exports = {
   // Additional audit to run on information Lighthouse gathered.
   audits: [{
     path: 'lighthouse-plugin-feature-policy/audits/sync-xhr.js',
+  },{
+    path: 'lighthouse-plugin-feature-policy/audits/unoptimized-images.js',
   }],
 
   // A new category in the report for the new audit's output.
@@ -18,6 +20,7 @@ module.exports = {
     description: 'Best practices Scores',
     auditRefs: [
       {id: 'sync-xhr', weight: 1},
+      {id: 'unoptimized-images', weight: 1},
     ],
   },
 };
