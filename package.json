@@ -7,6 +7,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "lighthouse": "^5.6.0"
+    "lighthouse": "^9.6.8"
   }
 }
